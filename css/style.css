@@ -26,7 +26,7 @@ coral: #1AA7EC
 }
 
 header{
-  background-color: #F4FFFD;
+  background-color: white;
   padding: 10px;
   box-sizing: border-box;
   -webkit-box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.75);
@@ -82,7 +82,7 @@ nav > ul > li > a{
   padding:0 15px; /*0 on top and bottom, 15px left and right*/
   text-transform: uppercase;
   font-weight: 600;
-  color:#011936;
+  color:#EF3E36;
 }
 
 body{
