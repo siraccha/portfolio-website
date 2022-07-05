@@ -20,7 +20,7 @@ coral: #1AA7EC
 
 /* Layout Styling */
 .container{
-  padding: 20px 15px;
+  padding: 30px 15px;
   box-sizing: border-box;
   background-color: white;
 }
@@ -46,7 +46,7 @@ header{
   box-sizing: border-box;
 }
 #hero .container{
-  padding: 100px;
+  padding: 100px 50px;
   box-sizing: border-box;
   text-align: center;
 }
@@ -101,7 +101,7 @@ h2{
 }
 h3{
   color: #011936;
-} 
+}
 a:active{
   background-color: #DF1E15;
   border-radius: 5px;
