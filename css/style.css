@@ -19,6 +19,12 @@ coral: #1AA7EC
 */
 
 /* Layout Styling */
+body{
+  font-family: 'Anek Devanagari', sans-serif;
+  color: #465362;
+  box-sizing: border-box;
+  background-color: #465362;
+}
 .container{
   padding: 30px 15px;
   box-sizing: border-box;
@@ -33,7 +39,6 @@ header{
   box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.75);
   position: fixed;
   width: 100%;
-  text-align: center;
 }
 .logo{
   box-sizing: border-box;
@@ -59,6 +64,7 @@ header{
   display: block;
 }
 nav{
+  display: inline-block;
   box-sizing: border-box;
   width: 100%;
 }
@@ -68,7 +74,6 @@ nav > ul{
   box-sizing: border-box;
 }
 nav > ul > li{
-  display: inline-block;
   box-sizing: border-box;
 }
 nav > ul > li > a{
@@ -77,11 +82,17 @@ nav > ul > li > a{
   font-weight: 600;
   color:#EF3E36;
 }
-body{
-  font-family: 'Anek Devanagari', sans-serif;
-  color: #465362;
-  box-sizing: border-box;
-  background-color: #465362;
+.navtoggle li:not(:last-child) {
+  display: none; /*Hide all navigation elements except for hamburger icon in mobile view*/
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
 }
 main{
   padding: 110px 0 0 0;
@@ -184,6 +195,16 @@ footer .container{
   nav{
     width: auto;
     float: right;
+  }
+  nav > ul > li{
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  .navtoggle li:not(:last-child){
+    display: inline-block;
+  }
+  .navtoggle li:last-child{
+    display: none;
   }
   main{
     padding-top: 99px;
