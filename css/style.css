@@ -19,7 +19,6 @@ ocean: #1AA7EC
 coral: #1AA7EC
 */
 
-/* Layout Styling */
 body{
   font-family: 'Anek Devanagari', sans-serif;
   color: #465362;
@@ -74,6 +73,9 @@ header{
 }
 #story{
   height: 800px;
+}
+#testimonials{
+  height: 1700px;
 }
 .illustration{
   height: 300px;
@@ -228,6 +230,20 @@ footer .container{
   display: inline-block;
   margin: 15px 15px 10px 15px;
 }
+.snippet{
+  color: #011936;
+}
+.quote{
+  line-height: 2;
+  opacity: 70%;
+}
+.colleague{
+  float: right;
+  text-align: right;
+  font-weight: 600;
+  color: #011936;
+  padding: 20px;
+}
 
 /*Medium devices (640px and larger)*/
 @media only screen and (min-width: 640px){
@@ -287,7 +303,7 @@ footer .container{
 
   }
   #testimonials{
-    height: 700px;
+    height: 800px;
   }
   #story{
     height: 600px;
