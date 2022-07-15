@@ -223,9 +223,10 @@ footer .container{
 }
 .top-left-corner{
   color: #F4FFFD;
+  font-family: 'Anek Devanagari', sans-serif;
   float: left;
   display: inline-block;
-  margin: 10px;
+  margin: 15px 15px 10px 15px;
 }
 
 /*Medium devices (640px and larger)*/
