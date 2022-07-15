@@ -42,6 +42,7 @@ header{
 }
 .logo{
   width: 50px;
+  float: left;
 }
 #work{
   margin-top: 30px;
@@ -222,7 +223,7 @@ footer .container{
 }
 .top-left-corner{
   color: #F4FFFD;
-  text-align: left;
+  float: left;
   display: inline-block;
   margin: 10px;
 }
