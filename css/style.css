@@ -248,6 +248,12 @@ footer .container{
     display: inline-block;
     box-sizing: border-box;
   }
+  .navtoggle.responsive nav{
+    padding: 0;
+  }
+  .navtoggle.responsive li {
+    padding: 0
+  }
   .navtoggle li:not(:last-child){
     display: inline-block;
   }
