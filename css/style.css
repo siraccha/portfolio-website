@@ -4,7 +4,7 @@ title font family: Inder
 body font family: Anek Devanagari (200, 300, 400regular, 500, 600)
 ink: #011936
 dust: #465362
-blood orange:#ef3e36 rgb(239, 62, 54) dark variant:#df1e15
+blood orange:#ef3e36 rgb(239, 62, 54) dark variant:#df1e15 #e91c13
 pool: #17bebb
 shiny: #f4fffd
 blurple: #6f4be0
@@ -176,10 +176,10 @@ a:active {
   box-sizing: border-box;
   border-style: solid;
   border-width: 1px;
-  border-color: #ef3e36;
+  border-color: #e91c13;
   border-radius: 5px;
   padding: 10px;
-  color: #ef3e36;
+  color: #e91c13;
   text-decoration: none;
   font-weight: 400;
   background-color: rgba(239, 62, 54, 0);
@@ -349,58 +349,68 @@ footer .container {
     box-sizing: border-box;
   }
 
-  #testimonials{
+  #testimonials {
     height: 800px;
   }
-  #story{
+
+  #story {
     height: 600px;
   }
 }
-/*large devices (1024px and larger)*/
-@media only screen and (min-width: 1024px){
-  .container{
+
+/* large devices (1024px and larger) */
+@media only screen and (min-width: 1024px) {
+  .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
-  .col-lg-4{
+
+  .col-lg-4 {
     width: 33.33%;
   }
-  .col-lg-8{
+
+  .col-lg-8 {
     width: 66.66%;
   }
-  #hero{
+
+  #hero {
     height: 450px;
   }
-  .illustration{
+
+  .illustration {
     height: 400px;
     width: auto;
     box-sizing: border-box;
   }
-  #hero h1{
+
+  #hero h1 {
     font-size: 42px;
   }
-  #story{
+
+  #story {
     height: 500px;
   }
 }
 
-/*Extra large devices (1440px and larger)*/
-@media only screen and (min-width: 1440px){
-  #hero h1{
+/* Extra large devices (1440px and larger) */
+@media only screen and (min-width: 1440px) {
+  #hero h1 {
     font-size: 48px;
   }
 }
 
-@keyframes color-change{
-  from {fill: #edc655;}
-  to {fill: #f76414;}
+@keyframes color-change {
+  from { fill: #edc655; }
+  to { fill: #f76414; }
 }
-@keyframes cloud-move{
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+
+@keyframes cloud-move {
+  from { transform: translate(0, 50px); }
+  to { transform: translate(200px, 50px); }
 }
-@keyframes cloud-move-reverse{
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+
+@keyframes cloud-move-reverse {
+  from { transform: translate(446px, 48px); }
+  to { transform: translate(100px, 48px); }
 }
