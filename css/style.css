@@ -45,6 +45,9 @@ header {
 #work .row {
   margin: 25px 0; /* 25px margin top and bottom, 0 left and right */
   box-sizing: border-box;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 15px 15px 30px;
+  border-radius: 5px;
 }
 
 #hero {
@@ -189,9 +192,9 @@ h3 {
   color: #011936;
 }
 
-a:active {
+a {
   text-decoration: none;
-  color: #17bebb;
+  color: inherit;
 }
 
 .button {
