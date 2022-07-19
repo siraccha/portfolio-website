@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  padding: 50px 15px 0;
+  padding: 50px 15px;
   box-sizing: border-box;
   margin: 0 auto;
 }
@@ -50,6 +50,10 @@ header {
   border-radius: 5px;
 }
 
+#work h3 {
+  margin-top: 15px;
+}
+
 #hero {
   display: block;
   background-color: #f8f6f9;
@@ -75,7 +79,7 @@ header {
 }
 
 #story {
-  height: 800px;
+  background-color: #f8f6f9;
 }
 
 #testimonials {
@@ -186,10 +190,12 @@ h2 {
   font-size: 1.25em;
   box-sizing: border-box;
   text-align: center;
+  margin-top: 45px;
 }
 
 h3 {
   color: #011936;
+  margin-top: 45px;
 }
 
 a {
