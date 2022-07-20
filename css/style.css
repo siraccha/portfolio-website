@@ -7,7 +7,7 @@ dust: #465362
 blood orange:#ef3e36 rgb(239, 62, 54) dark variant:#df1e15 #e91c13
 pool: #17bebb
 shiny: #f4fffd
-blurple: #6f4be0
+blurple: #5840e2
 */
 
 html {
@@ -35,6 +35,10 @@ header {
   box-shadow: 0 4px 5px 0 rgba(50, 50, 50, 0.75);
   position: fixed;
   width: 100%;
+}
+
+.menu-icon {
+  font-size: 35px;
 }
 
 .logo {
@@ -118,7 +122,7 @@ header {
   display: inline-block;
 }
 
-.iconify {
+.tool-icon {
   font-size: 50px;
   color: #5840e2;
 }
@@ -169,14 +173,16 @@ nav > ul > li > a {
 }
 
 .navtoggle.responsive li {
+  box-sizing: border-box;
   display: block;
-  padding: 20px 0;
-  border-top: 1px solid rgba(239, 62, 54, 0.2);
+  padding: 10px 0;
+  margin: 30px 0;
   text-align: center;
 }
 
 .navtoggle.responsive li:last-child {
   padding: 0 0 10px;
+  margin: 0;
 }
 
 main {
@@ -267,36 +273,36 @@ footer {
   text-align: center;
 }
 
-.contact-icon-list {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  padding: 30px;
-}
-
-.contact-icon-list li {
-  display: inline-block;
-}
-
 footer .container {
   background-color: unset;
 }
 
-.footer-title {
+footer ul {
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 15px;
+}
+
+footer p {
+  font-size: 0.7em;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+.footer-icon {
   color: #f4fffd;
-  text-align: center;
+  font-size: 50px;
 }
 
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
-
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
-
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
+.footer-button {
+  color:#011936;
+  background-color: #f4fffd;
 }
 
 .top-left-corner {
