@@ -83,12 +83,16 @@ header {
 }
 
 #testimonials [class*="col-"] {
-  margin: 25px 0;
+  margin: 15px auto;
   box-sizing: border-box;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  padding: 15px;
-  border-radius: 5px;
+  padding: 5px;
   display: block;
+}
+
+#testimonials .tile {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+  padding: 15px;
 }
 
 .illustration {
@@ -388,14 +392,6 @@ footer .container {
     width: auto;
     box-sizing: border-box;
   }
-
-  #testimonials {
-    height: 800px;
-  }
-
-  #story {
-    height: 600px;
-  }
 }
 
 /* large devices (1024px and larger) */
@@ -426,10 +422,6 @@ footer .container {
 
   #hero h1 {
     font-size: 42px;
-  }
-
-  #story {
-    height: 500px;
   }
 }
 
