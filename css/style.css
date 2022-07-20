@@ -81,6 +81,14 @@ header {
   padding: 30px;
 }
 
+#hero .illustration {
+  width: 80%;
+  max-width: 250px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #story {
   background-color: #f8f6f9;
 }
@@ -98,10 +106,8 @@ header {
   padding: 15px;
 }
 
-.illustration {
-  width: 80%;
-  max-width: 300px;
-  box-sizing: border-box;
+#contact .illustration {
+  width: 100%;
 }
 
 .skill-subsection {
@@ -397,10 +403,8 @@ footer p {
     height: 550px;
   }
 
-  .illustration {
-    width: 80%;
-    max-width: 315px;
-    box-sizing: border-box;
+  #hero .illustration {
+    max-width: 325px;
   }
 }
 
