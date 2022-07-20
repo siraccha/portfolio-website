@@ -7,7 +7,7 @@ dust: #465362
 blood orange:#ef3e36 rgb(239, 62, 54) dark variant:#df1e15 #e91c13
 pool: #17bebb
 shiny: #f4fffd
-blurple: #5840e2
+blurple: #5840e2 light variant: 6f4be0
 */
 
 html {
@@ -301,7 +301,7 @@ footer p {
 }
 
 .footer-button {
-  color:#011936;
+  color: #011936;
   background-color: #f4fffd;
 }
 
@@ -328,6 +328,11 @@ footer p {
   font-weight: 600;
   color: #011936;
   padding: 20px;
+}
+
+.email-button {
+  background-color: #5840e2;
+  width: 70%;
 }
 
 /* Medium devices (640px and larger) */
