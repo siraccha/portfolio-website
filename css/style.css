@@ -311,6 +311,11 @@ footer p {
   background-color: #f4fffd;
 }
 
+.notice {
+  font-size: 0.7em;
+  margin: 100px 100px 0;
+}
+
 .top-left-corner {
   color: #f4fffd;
   font-family: 'Anek Devanagari', sans-serif;
